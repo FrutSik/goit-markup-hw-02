@@ -77,12 +77,21 @@ a {
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  cursor: pointer;
+  background-color: #4D5AE5
+}
+
+.hero-btn:hover {
+  background-color: #404BBF
+}
+
+.hero-btn:focus {
+  background-color: #404BBF
 }
 
 /* ---------------HERO-------------- */
@@ -98,7 +107,6 @@ a {
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -126,7 +134,6 @@ a {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -154,7 +161,6 @@ a {
 }
 
 .portfolio-img-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -166,7 +172,6 @@ a {
 /* ---------------FOOTER-------------- */
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
