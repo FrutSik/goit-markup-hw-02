@@ -36,10 +36,7 @@ a {
   color: #2e2f42;
 }
 
-.header-menu-link:hover {
-  color: #404bbf;
-}
-
+.header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
 }
@@ -50,12 +47,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
-.header-menu-address:hover {
-  color: #404bbf;
-}
-
+.header-menu-address:hover,
 .header-menu-address:focus {
   color: #404bbf;
 }
@@ -86,12 +81,10 @@ a {
   background-color: #4D5AE5
 }
 
-.hero-btn:hover {
-  background-color: #404BBF
-}
 
+.hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF
+  background-color: #404bbf;
 }
 
 /* ---------------HERO-------------- */
