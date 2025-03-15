@@ -60,7 +60,7 @@ a {
 /* ---------------HERO-------------- */
 
 .hero {
-  background-color: #2e2f42
+  background-color: #2e2f42;
 }
 
 .hero-title {
@@ -68,20 +68,19 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background-color: #4D5AE5
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
-
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -111,12 +110,18 @@ a {
 
 /* ---------------TEAM-------------- */
 
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team-name {
@@ -144,6 +149,8 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-img-title {
